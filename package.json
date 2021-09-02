@@ -1,0 +1,48 @@
+{
+  "name": "aiyou-npc",
+  "version": "1.0.0",
+  "description": "基于aiyou-no-repeat 做的命令行工具。",
+  "main": "./index.js",
+  "bin": {
+    "npc": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin",
+    "steup": "npm link",
+    "unsteup": "npm unlink",
+    "debugger": "node --inspect-brk  ./bin/index.js",
+    "push": "git push origin master:master",
+    "push-tag": "git push --follow-tags origin master",
+    "czpush": "npm run cz && npm run push",
+    "tagpush": "npm run release && npm run push-tag",
+    "login": "npm login",
+    "tonpm": "nrm use npm && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyoudiao/aiyou-npc.git"
+  },
+  "keywords": [
+    "split",
+    "concat"
+  ],
+  "author": "哎哟迪奥",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/aiyoudiao/aiyou-npc/issues"
+  },
+  "homepage": "https://github.com/aiyoudiao/aiyou-npc#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "commander": "^8.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/inquirer": "^7.3.3"
+  }
+}
