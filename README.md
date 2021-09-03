@@ -4,10 +4,10 @@
 
 # aiyou-npc（超轻量 文件分割加密、重组工具）- 哎呦系列
 
-![nodejs>12.0](https://img.shields.io/badge/nodejs-%3E%2012.0-brightgreen.svg?id=aiyou-dg)
-![npm>6.0](https://img.shields.io/badge/npm-%20%3E%206.0-brightgreen.svg?id=aiyou-dg)
-![aiyou_npc](https://img.shields.io/badge/aiyou_npc-1.0.0-brightgreen.svg?id=aiyou-dg)
-![aiyou-bud](https://img.shields.io/badge/aiyou-bud-brightgreen.svg?id=aiyou-dg)
+![nodejs>12.0](https://img.shields.io/badge/nodejs-%3E%2012.0-brightgreen.svg?id=aiyou-npc)
+![npm>6.0](https://img.shields.io/badge/npm-%20%3E%206.0-brightgreen.svg?id=aiyou-npc)
+![aiyou_npc](https://img.shields.io/badge/aiyou_npc-1.0.0-brightgreen.svg?id=aiyou-npc)
+![aiyou-bud](https://img.shields.io/badge/aiyou-bud-brightgreen.svg?id=aiyou-npc)
 
 - [🔥 功能列表](##功能列表)
 - [✨ 使用介绍](#使用介绍)
@@ -36,9 +36,9 @@ aiyou-npc 程序，可以同时运行在 windows 和类 unux 的电脑中：
 
 | api                                   | 效果                                                               |
 | ------------------------------------- | ------------------------------------------------------------------ |
-| aiyou-dg                              | 打开 aiyou-npc 程序的帮助文档                             |
-| aiyou-dg split 指定文件 到指定目录下面      | 分解 指定文件 到指定目录下面                     |
-| aiyou-dg concat 有碎片文件的目录 生成指定路径文件 [重组完成后是否删除碎片文件目录]    | 重组 有碎片文件的目录 生成指定路径文件       |
+| npc                              | 打开 aiyou-npc 程序的帮助文档                             |
+| npc split 指定文件 到指定目录下面      | 分解 指定文件 到指定目录下面                     |
+| npc concat 有碎片文件的目录 生成指定路径文件 [重组完成后是否删除碎片文件目录]    | 重组 有碎片文件的目录 生成指定路径文件       |
 | ...                                   | 后续功能待优化                                                     |
 
 ---
@@ -87,7 +87,7 @@ concat(refactorDir, newFilePath, runing, ending, runingError) // 重组操作
 
 ### 😎 浮夸的效果
 
-![aiyou-dg](./sources/20200228225545.png)
+![aiyou-npc](./sources/20200228225545.png)
 
 ---
 
