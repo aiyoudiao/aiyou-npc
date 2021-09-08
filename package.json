@@ -1,6 +1,6 @@
 {
   "name": "aiyou-npc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于aiyou-no-repeat 做的命令行工具。",
   "main": "./index.js",
   "bin": {
